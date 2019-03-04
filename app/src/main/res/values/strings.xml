@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">MyStoryteller</string>
+
+    <!--Strings Menu Main Activity -->
+    <string name="menu_about">About MyStoryteller</string>
+    <string name="about_my_storyteller_text">„My Storyteller” is a personalized storytelling app. You become your own character
+        in different stories and complete parts of story templates provided by the app. You have the option to edit the
+        resulting stories before saving them. Press the fab button to add a new story and follow the steps. The stories which
+        are saved! appear on the main screen. Then touch a story item to access the story content (and share it with your
+        friends!), or swipe left to delete that story. Enjoy!</string>
+    <string name="cancel">Cancel</string>
+
+    <!--Strings New Story Activity-->
+    <string name="select_story">Select your story</string>
+    <string name="the_island_story_title">The island</string>
+    <string name="the_future_story_title">The future</string>
+
+    <!--Story The Island-->
+    <!--Strings User Name Activity-->
+    <string name="user_name_title">What is your name?</string>
+    <string name="user_name_edit_text">Your Name</string>
+    <string name="button_user_name_screen">Begin Story</string>
+
+    <!--Strings Beach Activity-->
+    <string name="story_so_far_beach">\t\t\tClose your eyes and imagine&#8230; \n\t\t\tYou find yourself on the beach of a
+        potentially remote island.
+        You look around and try to accommodate with the new surroundings. You have the ocean in front of you, and a forrest behind.
+        Describe the ocean, the sky, the sand and the forrest using attributes that could characterize each of them.
+        You can use one or more attributes (real or imaginary) in each answer (E.g. calm/ cloudy/ soft and clean,
+        with a few seashells/ dense). \nThis is available also for the next parts of the story (next screens).
+    </string>
+
+    <string name="button_beach_screen">Continue story</string>
+
+    <string name="question_ocean">How does the ocean look like?</string>
+    <string name="answer_hint">Write characteristics here</string>
+    <string name="question_sky">How is the sky?</string>
+    <string name="question_sand">How is the sand?</string>
+    <string name="question_forrest">How does the forrest look like?</string>
+
+    <string name="discard_data">Discard</string>
+    <string name="show_discard_alert_dialog">The data inserted on this screen will be deleted. \nYou will be able to edit your story at the end, before
+                    saving it. \nDo you still want to discard the data?</string>
+    <string name="toast_message_fields_not_completed">You must complete all the fields</string>
+
+    <!--Strings House Activity-->
+    <string name="story_so_far_something_scary">\t\t\t&#8230;You stand up and run into the forest because you got scared.</string>
+
+    <string name="question_something_scary">Something scared you. What was it?</string>
+
+    <string name="story_so_far_house">\t\t\tYou keep running for several minutes through the forrest, until you realize
+        that the danger is gone. But what do you now see in front of you? A house, in the middle of the forrest, is in your path.
+        Are you not alone?
+        You get closer.</string>
+
+    <string name="question_house">How does the house look like?</string>
+    <string name="question_windows">How are the windows?</string>
+    <string name="question_door">Describe the door:</string>
+    <string name="button_house_screen">Next</string>
+
+    <string name="answer_hint_to_question">Answer here</string>
+
+    <string name="toast_message_user_name_not_completed">Please complete username.</string>
+
+    <!--Strings House Interior Activity-->
+    <string name="answer_hint_interior_house">Describe here</string>
+
+    <string name="button_interior_house_screen">Getting closer</string>
+
+    <string name="story_so_far_interior_house">\t\t\t&#8230;You put yourself together and find your courage to go inside. You move closer,
+    cautiously, and open the creaking door. You step inside.</string>
+    <string name="question_interior_house">Describe the interior of the house:</string>
+    <string name="button_end_of_story_screen">Go to story editing </string>
+    <!--Strings End Activity-->
+    <string name="story_the_island_end_of_story">\t\t\t&#8230;You see another door at the back of the house. You try it out and
+        reach an amazingly well kept garden, with all sorts of fruit and flowers. You have just made a few steps around, when you
+        hear someone calling you, louder and louder. For a few seconds, you feel that you simply cannot move. A bright light
+        forces you to close your eyes. When you open your eyes again, you are in your own home, laying in your bed. What happened?</string>
+
+    <string name="button_go_to_submission_screen">Go to submission screen</string>
+
+    <!--Strings EditStory Activity-->
+    <string name="edit_story_the_island_instructions">\t\t\tYou did it! Below is your story draft. It still needs your attention.
+        Edit what is necessary and submit it via the button at the bottom of the screen:</string>
+
+    <string name="final_story_the_island_1">\t\t\tI closed my eyes and imagined myself on the beach of a
+        potentially remote island.
+        I looked around and tried to accommodate with the new surroundings. The ocean was in front of me, and a forrest behind.
+        I stared at the ocean, it was </string>
+    <string name="final_story_the_island_2">. Then I looked up. Amazing! The sky was </string>
+    <string name="final_story_the_island_3">. I touched the sand, it was </string>
+    <string name="final_story_the_island_4">, and then turned around to gaze at the </string>
+    <string name="final_story_the_island_5"> forrest. It all seemed magical, but it did not take long and I got afraid, </string>
+    <string name="final_story_the_island_6"> scared me! \n\t\t\tI ran into the forrest and did not look back. I ran as hard as I could
+    for several minutes, until I realized that the danger was gone. Right on my path, a house appeared in front of my eyes.
+    Who would have known? I never thought I would find a house in the middle of this island. Wow! I stepped closer to take a
+    better look at it. The house was </string>
+    <string name="final_story_the_island_7"> and its windows were </string>
+    <string name="final_story_the_island_8"> . I got even closer and found myself in front of a </string>
+    <string name="final_story_the_island_9"> door. I took a deep breath and found the courage to go inside.
+    I opened the creaky door and stepped in. What I could see inside was: </string>
+    <string name="final_story_the_island_10"> . \n\t\t\tI then saw another door at the back of the house. I went and
+    opened it. I was impressed. That door took me in a mystical place. I reached an amazingly well kept garden, with
+    all sorts of fruit and flowers. I took a few steps ahead and suddenly I heard someone calling me, louder and louder: </string>
+    <string name="final_story_the_island_11"> For a few seconds I felt that I simply could not move at all. A bright light forced me to close my eyes. As soon as
+    I opened them again, I was in my own house, laying in my bed. What did just happen? </string>
+
+    <!--Story The Future-->
+    <!--Strings StoryADayInTheFutureStory-->
+    <string name="introduction_user_name_screen_the_future">\t\t\tIn the next screen you will be provided with an introduction
+    to a story. You are supposed to get creative and find a continuation to this story, before submitting it and saving it in a
+    database.</string>
+    <string name="a_day_in_the_future_story_title">A day in the future</string>
+    <string name="dear_user_name">\t\t\tDear\u0020</string>
+    <string name="introduction_story_the_future">\t\t\tToday, I closed my eyes and dreamed of a better world.
+        I suddenly woke up in the same place I was before, but the calendar said it was the year 2039.
+        I hurried up to the window and was amazed of what I could see.&#032; </string>
+    <string name="toast_message_story_field_cannot_be_empty">Story field cannot be empty</string>
+
+    <!--RecyclerView-->
+    <string name="recyclerview_content_title">Title</string>
+    <string name="recyclerview_content_date">Date</string>
+    <string name="recyclerview_content_userName">Name</string>
+
+    <!--Strings for submission screen-->
+    <!--String created to verify textview alignment in submission screen-->
+    <string name="final_story_text_view_layout_verify">Here is your story</string>
+    <string name="tabulator">\u0009</string>
+    <string name="button_save_story_and_go_to_main_screen">Save and go to main screen</string>
+    <string name="action_bar_title_for_submission">Your story</string>
+
+    <string name="weather_data_title">Good time to write a story?</string>
+    <string name="your_city">Your city</string>
+    <string name="button_check">Check</string>
+    <string name="available_stories">Choose a story:</string>
+
+    <!--Strings for widgets-->
+    <string name="appwidget_text">Would you like to write a story?</string>
+    <string name="add_widget">Add widget</string>
+    <string name="title_activity_story_details">StoryDetailsActivity</string>
+
+    <string name="content_details">text for details screen</string>
+
+    <string name="ads">"ca-app-pub-3940256099942544/6300978111"</string>
+
+</resources>

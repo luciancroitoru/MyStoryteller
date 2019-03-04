@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardViewStyle"
+    card_view:cardCornerRadius="@dimen/cardCornerRadius"
+    card_view:contentPadding="@dimen/cardContentPadding"
+    card_view:cardBackgroundColor="@color/colorLightPrimary"
+    android:clipChildren="false"
+    tools:context=".storytheisland.StoryTheIslandInteriorHouseActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/story_so_far_interior_house"
+                style="@style/StorySoFarTextView" />
+
+            <TextView
+                android:id="@+id/question_interior_house"
+                android:layout_below="@id/story_so_far_interior_house"
+                style="@style/QuestionTextView"
+                android:text="@string/question_interior_house"/>
+
+            <EditText
+                android:id="@+id/answer_interior_house"
+                android:layout_below="@id/question_interior_house"
+                style="@style/AnswerTextView"
+                android:hint="@string/answer_hint_interior_house"/>
+
+            <Button
+                android:id="@+id/button_story_interior_house_screen"
+                style="@style/BottomButtonStyle"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/answer_interior_house"
+                android:text="@string/button_interior_house_screen"
+                android:layout_marginTop="@dimen/extra_margin_top_for_button"/>
+        </RelativeLayout>
+
+    </ScrollView>
+</android.support.v7.widget.CardView>

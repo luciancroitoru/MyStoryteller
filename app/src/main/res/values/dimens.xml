@@ -1,0 +1,54 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="fab_elevation">8dp</dimen>
+
+    <dimen name="body_text_size">16sp</dimen>
+    <dimen name="new_story_padding">20dp</dimen>
+    <dimen name="new_story_margin">20dp</dimen>
+    <dimen name="new_story_screen_margin_top">20dp</dimen>
+
+    <dimen name="cardCornerRadius">2dp</dimen>
+    <dimen name="cardElevation">5dp</dimen>
+    <dimen name="cardContentPadding">10dp</dimen>
+    <dimen name="card_view_layout_margin">5dp</dimen>
+
+    <dimen name="user_name_title">20dp</dimen>
+    <dimen name="text_view_padding">5dp</dimen>
+    <dimen name="text_view_margin_top">10dp</dimen>
+    <dimen name="edit_text_user_name_text_size_">16sp</dimen>
+    <dimen name="button_padding">10dp</dimen>
+    <dimen name="button_layout_margin">10dp</dimen>
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="button_elevation">8dp</dimen>
+
+    <dimen name="story_text_size">16sp</dimen>
+    <dimen name="line_spacing_extra">10dp</dimen>
+    <dimen name="question_text_size">16sp</dimen>
+
+    <dimen name="answer_text_size">16sp</dimen>
+    <dimen name="question_margin_top">15dp</dimen>
+    <dimen name="answer_margin_top">10dp</dimen>
+    <dimen name="answer_margin_end">15dp</dimen>
+
+    <dimen name="extra_margin_top_for_button">100dp</dimen>
+    <dimen name="final_story_text_size">16sp</dimen>
+    <dimen name="extra_margin_bottom">10dp</dimen>
+
+    <dimen name="recyclerview_padding">10dp</dimen>
+    <dimen name="recyclerview_content_padding">2dp</dimen>
+    <dimen name="recyclerview_smaller_content_padding_bottom">5dp</dimen>
+    <dimen name="weather_title_margin_bottom">10dp</dimen>
+    <dimen name="button_margin_left">10dp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+    <dimen name="widget_text">16sp</dimen>
+    <dimen name="widget_min_width">200dp</dimen>
+
+    <dimen name="action_bar_size">56dp</dimen>
+
+    <dimen name="elevation_select_your_story_textview">4dp</dimen>
+</resources>

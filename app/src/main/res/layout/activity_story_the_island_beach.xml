@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardViewStyle"
+    card_view:cardCornerRadius="@dimen/cardCornerRadius"
+    card_view:contentPadding="@dimen/cardContentPadding"
+    card_view:cardBackgroundColor="@color/colorLightPrimary"
+    android:clipChildren="false"
+    tools:context=".storytheisland.StoryTheIslandBeachActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/story_text_so_far_beach"
+            style="@style/StorySoFarTextView" />
+
+        <TextView
+            android:id="@+id/question_ocean"
+            android:layout_below="@id/story_text_so_far_beach"
+            style="@style/QuestionTextView"
+            android:text="@string/question_ocean"/>
+
+        <EditText
+            android:id="@+id/answer_ocean"
+            android:layout_below="@id/question_ocean"
+            style="@style/AnswerTextView"
+            android:hint="@string/answer_hint_to_question"/>
+
+        <TextView
+            android:id="@+id/question_sky"
+            android:layout_below="@id/answer_ocean"
+            style="@style/QuestionTextView"
+            android:text="@string/question_sky"/>
+
+        <EditText
+            android:id="@+id/answer_sky"
+            android:layout_below="@id/question_sky"
+            style="@style/AnswerTextView"
+            android:hint="@string/answer_hint_to_question"/>
+
+        <TextView
+            android:id="@+id/question_sand"
+            android:layout_below="@id/answer_sky"
+            style="@style/QuestionTextView"
+            android:text="@string/question_sand"/>
+
+        <EditText
+            android:id="@+id/answer_sand"
+            android:layout_below="@id/question_sand"
+            style="@style/AnswerTextView"
+            android:hint="@string/answer_hint_to_question"/>
+
+        <TextView
+            android:id="@+id/question_forrest"
+            android:layout_below="@id/answer_sand"
+            style="@style/QuestionTextView"
+            android:text="@string/question_forrest"/>
+
+        <EditText
+            android:id="@+id/answer_forrest"
+            android:layout_below="@id/question_forrest"
+            style="@style/AnswerTextView"
+            android:hint="@string/answer_hint_to_question"/>
+
+        <Button
+            android:id="@+id/button_story_beach_screen"
+            style="@style/BottomButtonStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/answer_forrest"
+            android:text="@string/button_beach_screen" />
+
+    </RelativeLayout>
+    </ScrollView>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardViewStyle"
+    card_view:cardCornerRadius="@dimen/cardCornerRadius"
+    card_view:contentPadding="@dimen/cardContentPadding"
+    card_view:cardBackgroundColor="@color/colorLightPrimary"
+    android:clipChildren="false"
+    tools:context=".FinalStoryActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/story_final_story_text_view"
+                style="@style/StorySoFarTextView"
+                android:text="@string/final_story_text_view_layout_verify"
+                android:layout_marginBottom="@dimen/extra_margin_bottom"/>
+
+            <Button
+                android:id="@+id/button_submit_story"
+                style="@style/BottomButtonStyle"
+                android:layout_below="@id/story_final_story_text_view"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/button_save_story_and_go_to_main_screen"/>
+        </RelativeLayout>
+    </ScrollView>
+</android.support.v7.widget.CardView>

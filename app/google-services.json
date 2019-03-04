@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "313267427917",
+    "firebase_url": "https://mystoryteller-266ff.firebaseio.com",
+    "project_id": "mystoryteller-266ff",
+    "storage_bucket": "mystoryteller-266ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313267427917:android:b44bd04185e1d813",
+        "android_client_info": {
+          "package_name": "com.example.lucian.mystoryteller"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313267427917-br4otm3t1kp8djf4stm14ggo8dserv33.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lucian.mystoryteller",
+            "certificate_hash": "70a7dc6938241f8ad060c13d8d3c62c7ba55a4d3"
+          }
+        },
+        {
+          "client_id": "313267427917-9kntk3ipal677cuvvdru5ujcvs17tm1u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.lucian.mystoryteller",
+            "certificate_hash": "55399582d86dddbbc941564766934766b68208a5"
+          }
+        },
+        {
+          "client_id": "313267427917-ovmij504jg6an5ll0jdobleqfm9ug58o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzefFryeXezyqhJhQwtSooCNHd3Qbpj6U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313267427917-ovmij504jg6an5ll0jdobleqfm9ug58o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<tools:android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardViewStyle"
+    card_view:cardCornerRadius="@dimen/cardCornerRadius"
+    card_view:contentPadding="@dimen/cardContentPadding"
+    card_view:cardBackgroundColor="@color/colorLightPrimary"
+    android:clipChildren="false"
+    tools:context=".storytheisland.StoryTheIslandHouseActivity">
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/story_so_far_something_scary"
+            style="@style/StorySoFarTextView" />
+
+        <TextView
+            android:id="@+id/question_something_scary"
+            android:layout_below="@id/story_so_far_something_scary"
+            style="@style/QuestionTextView"
+            android:text="@string/question_something_scary"/>
+
+        <EditText
+            android:id="@+id/answer_something_scary"
+            android:layout_below="@id/question_something_scary"
+            style="@style/AnswerTextView"
+            android:hint="@string/answer_hint_to_question"/>
+
+        <TextView
+            android:id="@+id/story_so_far_house"
+            style="@style/StorySoFarTextView"
+            android:layout_below="@id/answer_something_scary"/>
+
+        <TextView
+            android:id="@+id/question_house"
+            android:layout_below="@id/story_so_far_house"
+            style="@style/QuestionTextView"
+            android:text="@string/question_house"/>
+
+        <EditText
+            android:id="@+id/answer_house"
+            android:layout_below="@id/question_house"
+            style="@style/AnswerTextView"
+            android:hint="@string/answer_hint_to_question"/>
+
+        <TextView
+            android:id="@+id/question_windows"
+            android:layout_below="@id/answer_house"
+            style="@style/QuestionTextView"
+            android:text="@string/question_windows"/>
+
+        <EditText
+            android:id="@+id/answer_windows"
+            android:layout_below="@id/question_windows"
+            style="@style/AnswerTextView"
+            android:hint="@string/answer_hint_to_question"/>
+
+        <TextView
+            android:id="@+id/question_door"
+            android:layout_below="@id/answer_windows"
+            style="@style/QuestionTextView"
+            android:text="@string/question_door"/>
+
+        <EditText
+            android:id="@+id/answer_door"
+            android:layout_below="@id/question_door"
+            style="@style/AnswerTextView"
+            android:hint="@string/answer_hint_to_question"/>
+
+        <Button
+            android:id="@+id/button_story_house_screen"
+            style="@style/BottomButtonStyle"
+            android:text="@string/button_house_screen"
+            android:layout_below="@id/answer_door"/>
+
+    </RelativeLayout>
+</ScrollView>
+</tools:android.support.v7.widget.CardView>

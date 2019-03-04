@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/CardViewStyle"
+    card_view:cardCornerRadius="@dimen/cardCornerRadius"
+    card_view:contentPadding="@dimen/cardContentPadding"
+    card_view:cardBackgroundColor="@color/colorLightPrimary"
+    android:clipChildren="false"
+    tools:context=".storythefuture.StoryADayInTheFutureNameActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/introduction_story_the_future_user_name_screen"
+            style="@style/StorySoFarTextView"
+            android:text="@string/introduction_user_name_screen_the_future" />
+
+        <TextView
+            android:id="@+id/user_name_title_the_future"
+            style="@style/UserNameTitle"
+            android:layout_above="@+id/user_name_edit_text_the_future"
+            android:layout_centerInParent="true"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/user_name_edit_text_the_future"
+            style="@style/UserNameEditText"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:hint="@string/user_name_edit_text"
+            android:inputType="textCapSentences"/>
+
+        <Button
+            android:id="@+id/button_user_name_screen_the_future"
+            style="@style/BottomButtonStyle"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="@string/button_user_name_screen" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,123 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/primaryText</item>
+        <item name="android:textColorSecondary">@color/secondaryText</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="NewStory">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/body_text_size</item>
+        <item name="android:padding">@dimen/new_story_padding</item>
+        <item name="android:layout_margin">@dimen/new_story_margin</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:elevation">@dimen/elevation_select_your_story_textview</item>
+    </style>
+
+    <style name="CardViewStyle" parent="CardView">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_margin">@dimen/card_view_layout_margin</item>
+        <item name="cardElevation">@dimen/cardElevation</item>
+    </style>
+
+    <style name="UserNameTitle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
+        <item name="android:textSize">@dimen/user_name_title</item>
+        <item name="android:text">@string/user_name_title</item>
+    </style>
+
+    <style name="UserNameEditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
+        <item name="android:textSize">@dimen/user_name_title</item>
+        <item name="android:hint">@string/user_name_edit_text</item>
+        <item name="android:inputType">textCapSentences</item>
+    </style>
+
+    <style name="BottomButtonStyle">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/button_padding</item>
+        <item name="android:layout_margin">@dimen/button_layout_margin</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:elevation">8dp</item>
+        <item name="android:layout_alignParentBottom">true</item>
+        <item name="android:layout_centerHorizontal">true</item>
+    </style>
+
+    <style name="StorySoFarTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
+        <item name="android:textSize">@dimen/story_text_size</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra</item>
+    </style>
+
+    <style name="QuestionTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
+        <item name="android:textSize">@dimen/question_text_size</item>
+        <item name="android:text">@string/user_name_title</item>
+        <item name="android:layout_marginTop">@dimen/question_margin_top</item>
+    </style>
+
+    <style name="AnswerTextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
+        <item name="android:textSize">@dimen/answer_text_size</item>
+        <item name="android:layout_marginTop">@dimen/answer_margin_top</item>
+        <item name="android:layout_marginEnd">@dimen/answer_margin_end</item>
+        <item name="android:hint">@string/answer_hint_to_question</item>
+        <item name="android:inputType">text</item>
+    </style>
+
+    <style name="FinalStoryEditText">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
+        <item name="android:textSize">@dimen/final_story_text_size</item>
+        <item name="android:hint">@string/user_name_edit_text</item>
+        <item name="android:inputType">textMultiLine</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra</item>
+    </style>
+
+    <style name="StoryContentDetails">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/text_view_padding</item>
+        <item name="android:textSize">@dimen/story_text_size</item>
+        <item name="android:textColor">@color/primaryText</item>
+        <item name="android:lineSpacingExtra">@dimen/line_spacing_extra</item>
+    </style>
+
+</resources>
