@@ -9,6 +9,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import com.example.lucian.mystoryteller.R;
+import com.example.lucian.mystoryteller.StoryWidgetProvider;
+import com.example.lucian.mystoryteller.StoryWidgetService;
+import com.example.lucian.mystoryteller.storytheisland.StoryTheIslandNameActivity;
 import com.example.lucian.mystoryteller.utils.DataMng;
 
 import butterknife.BindView;
@@ -21,7 +24,7 @@ public class StoryADayInTheFutureNameActivity extends AppCompatActivity {
     @BindView(R.id.button_user_name_screen_the_future)
     Button button;
     private Intent intent;
-    String getUserName;
+    String getUserName = "You";
     String getStoryTitle;
 
     @Override
@@ -47,8 +50,7 @@ public class StoryADayInTheFutureNameActivity extends AppCompatActivity {
                     intent = new Intent(StoryADayInTheFutureNameActivity.this, EditADayInTheFutureStoryActivity.class);
                     DataMng.storyTitle = getStoryTitle;
                     DataMng.userName = getUserName;
-                    DataMng.storyAttemptforWidget = "The last person who showed interest in a story was " + getUserName +
-                            " and accessed the story: " + getStoryTitle;
+                    DataMng.storyAttemptforWidget = getUserName + " showed interest in a story called " + getStoryTitle + " on ";
                     startActivity(intent);
                 }
             }
@@ -57,4 +59,11 @@ public class StoryADayInTheFutureNameActivity extends AppCompatActivity {
     //collects user input
     public void getUserInputName(){
         getUserName = userNameEditText.getText().toString();}
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        StoryWidgetService.startActionUpdateWidget(this);
+        Toast.makeText(StoryADayInTheFutureNameActivity.this, R.string.widget_was_updated_message, Toast.LENGTH_SHORT).show();
+    }
 }

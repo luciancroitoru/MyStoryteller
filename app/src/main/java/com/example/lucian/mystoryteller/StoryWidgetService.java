@@ -42,7 +42,7 @@ public class StoryWidgetService extends IntentService {
             Date date = calendar.getTime();
             String dateString = formatter.format(date);
             String dataForWidget = DataMng.storyAttemptforWidget;
-            dataForWidget = dataForWidget + " . The date and time were " + dateString;
+            dataForWidget = dataForWidget + dateString;
 
             if (ACTION_UPDATE_WIDGET.equals(action)) {
                 handleActionUpdateWidget(dataForWidget);

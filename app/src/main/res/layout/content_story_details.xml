@@ -26,7 +26,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="top|center"
             ads:adSize="BANNER"
-            ads:adUnitId="@string/ads" />
+            ads:adUnitId="@string/ads"
+            android:contentDescription="@string/ad_mock_content_description"/>
 
     <!-- TextView showing story content -->
     <TextView

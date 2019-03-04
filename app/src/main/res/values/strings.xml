@@ -13,7 +13,7 @@
     <!--Strings New Story Activity-->
     <string name="select_story">Select your story</string>
     <string name="the_island_story_title">The island</string>
-    <string name="the_future_story_title">The future</string>
+    <string name="the_future_story_title">A day in the future</string>
 
     <!--Story The Island-->
     <!--Strings User Name Activity-->
@@ -142,5 +142,10 @@
     <string name="content_details">text for details screen</string>
 
     <string name="ads">"ca-app-pub-3940256099942544/6300978111"</string>
+
+    <string name="fab_home_content_description">opens new activity, user will start the process of populating the app</string>
+    <string name="fab_email_activity_story_details">sends intent to web services to share content externally (e.g. e-mail)</string>
+    <string name="ad_mock_content_description">the banner ad, a test mock, would be monetization part of the app</string>
+    <string name="widget_was_updated_message">The widget was updated with relevant information</string>
 
 </resources>

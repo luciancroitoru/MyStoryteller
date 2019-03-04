@@ -19,6 +19,7 @@ import com.example.lucian.mystoryteller.database.WeatherEntry;
 import com.example.lucian.mystoryteller.storythefuture.StoryADayInTheFutureNameActivity;
 import com.example.lucian.mystoryteller.storytheisland.StoryTheIslandNameActivity;
 import com.example.lucian.mystoryteller.utils.Constants;
+import com.example.lucian.mystoryteller.utils.DataMng;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.squareup.okhttp.OkHttpClient;
@@ -50,6 +51,8 @@ public class NewStoryActivity extends AppCompatActivity {
     // Member variable for the Weather Database
     private WeatherDatabase weatherDb;
     private int weatherId = DEFAULT_WEATHER_ID;
+    String getUserName = "You";
+    String getStoryTitle;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,6 +74,8 @@ public class NewStoryActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 intent = new Intent(NewStoryActivity.this, StoryTheIslandNameActivity.class);
+                getStoryTitle = "The island";
+                DataMng.storyAttemptforWidget = getUserName + " showed interest in a story called " + getStoryTitle + " on ";
                 startActivity(intent);
             }
         });
@@ -79,6 +84,8 @@ public class NewStoryActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 intent = new Intent(NewStoryActivity.this, StoryADayInTheFutureNameActivity.class);
+                getStoryTitle = "A day in the future";
+                DataMng.storyAttemptforWidget = getUserName + " showed interest in a story called " + getStoryTitle + " on ";
                 startActivity(intent);
             }
         });
