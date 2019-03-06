@@ -1,14 +1,6 @@
 apply plugin: 'com.android.application'
 
 android {
-    signingConfigs {
-        config {
-            keyAlias 'key0'
-            keyPassword 'pass123'
-            storeFile file("$rootDir/keystore.jks")
-            storePassword 'pass123'
-        }
-    }
     compileSdkVersion 28
     defaultConfig {
         applicationId "com.example.lucian.mystoryteller"
@@ -22,10 +14,6 @@ android {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
-            signingConfig signingConfigs.config
-        }
-        debug {
-            signingConfig signingConfigs.config
         }
     }
 }
